@@ -149,7 +149,7 @@ var App = {
   about: function(){
     this.echo();
     this.echo("|  Name:         " + commandText('Bikash Dash'));
-    this.echo("|  DOB:          06/12/1993 (" + commandText('23') + " y.o)");
+    this.echo("|  DOB:          06/12/1993 (" + commandText('24') + " y.o)");
     this.echo("|");
     this.echo("|  Summary:      I am a Backend  Developer (primarily " + commandText('Node.js') + ", " + commandText('PHP') + ") ");
     this.echo("|                I'm passionate about making people's lives better through software.\n|                Whether it's a small piece of functionality implemented in a way that is\n|                seamless to the user, or it's a largescale effort to improve the\n|                performance and usability of software, I'm there." );
@@ -256,7 +256,7 @@ var App = {
     // this.exec('twitter');
     this.exec('social');
     this.exec('contact');
-    this.echo("|  " + commandText("DOWNLOAD MY RESUME!") + "       http://bikashdash.net/resume.pdf");
+    this.echo("|  " + commandText("DOWNLOAD MY RESUME!") + "  https://beeeku.github.io/resume.pdf");
     // this.exec('credits');
   },
   sudo: function(){
@@ -281,7 +281,7 @@ var App = {
 
 jQuery(document).ready(function($) {
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      window.location.href = "http://bikashdash.net/resume.pdf";
+      window.location.href = "https://beeeku.github.io/resume.pdf";
   } else {
     $('body').terminal(App, {
       greetings: function(cb){
