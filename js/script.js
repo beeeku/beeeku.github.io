@@ -125,11 +125,11 @@ var App = {
   },
   work: function(){
     this.echo();
-    this.echo("|  " + commandText('CTO') + "                             at " + commandText("Xprep") + "\n|  Aug 2015 - Present");
-    this.echo("|    In XPrep my responsibilities are —");
+    this.echo("|  " + commandText('CTO') + "                             at " + commandText("Classplus") + "\n|  Aug 2015 - Present");
+    this.echo("|    In Classplus my responsibilities are —");
     this.echo("|    • Being the first programmer of the company to build the platform from scratch .");
     this.echo("|    • Designing Scalable Architecture and Managing Servers.");
-    this.echo("|    • Hiring and Leading Engineering Team of 5 members.");
+    this.echo("|    • Hiring and Leading Engineering Team of 8 members.");
     this.echo("|    • Letting Innovation and Research drive the product development.");
     this.echo("|");
    
