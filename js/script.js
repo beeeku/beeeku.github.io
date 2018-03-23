@@ -21,7 +21,7 @@ var App = {
       "|[[b;#00DE12;]\t\t|______|  |___| |___|\___ \\  / /         \\ |______|    | |      | |    ]\t|\n"+
       
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
-      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - CTO of Edtech Startup XPrep Based in New Delhi. \t|\n"+
+      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - CTO of Edtech Startup Classplus(Previously XPrep) Based in New Delhi. \t|\n"+
       "|\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.    \t\t\t\t\t\t|\n"+
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
       "####################################################################################\n";
