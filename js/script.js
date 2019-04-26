@@ -21,7 +21,7 @@ var App = {
       "|[[b;#00DE12;]\t\t|______|  |___| |___|\___ \\  / /         \\ |______|    | |      | |    ]\t|\n"+
       
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
-      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - CTO of Edtech Startup Classplus Based in New Delhi. |\n"+
+      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - CTO of Traveltech Startup Localtrip Based in New Delhi. |\n"+
       "|\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.    \t\t\t\t\t\t|\n"+
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
       "####################################################################################\n";
@@ -87,7 +87,7 @@ var App = {
   },
   social: function(){
     this.echo();
-    this.echo("|  " + commandText("Blog") + ":         http://www.blog.bikash.xyz");
+    this.echo("|  " + commandText("Blog") + ":         http://blog.bikash.dev");
     this.echo("|  " + commandText("GitHub") + ":       http://www.github.com/beeeku");
     this.echo("|  " + commandText("Facebook") + ":     https://www.facebook.com/beeeku");
     this.echo("|  " + commandText("LinkedIn") + ":     https://in.linkedin.com/in/beeeku");
