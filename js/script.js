@@ -21,7 +21,7 @@ var App = {
       "|[[b;#00DE12;]\t\t|______|  |___| |___|\___ \\  / /         \\ |______|    | |      | |    ]\t|\n"+
       
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
-      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - CTO of Traveltech Startup Localtrip Based in New Delhi. |\n"+
+      "|\t\tHi, I'm " + commandText('Bikash Dash') + " - VP Engineering of Localtrip                               |\n"+
       "|\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.    \t\t\t\t\t\t|\n"+
       "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |\n"+
       "####################################################################################\n";
@@ -125,20 +125,20 @@ var App = {
   },
   work: function(){
     this.echo();
-    this.echo("|  " + commandText('VP Engineering') + "                  at " + commandText("Localtrip") + "\n|  May 2018 - Apr 2019");
+    this.echo("|  " + commandText('VP Engineering') + "                         at " + commandText("Localtrip") + "\n|  May 2018 - Apr 2019");
     this.echo("|    In Localtrip my responsibilities are —");
     this.echo("|    • Being the first programmer of the company to build the platform from scratch .");
     this.echo("|    • Designing Scalable Architecture and Managing Servers.");
     this.echo("|    • Letting Innovation and Research drive the product development.");
     this.echo("|");
-    this.echo("|  " + commandText('Cofounder & CTO') + "                 at " + commandText("Classplus") + "\n|  Aug 2015 - Apr 2018");
+    this.echo("|  " + commandText('Cofounder & CTO') + "                         at " + commandText("Classplus") + "\n|  Aug 2015 - Apr 2018");
     this.echo("|    •Founding techie, built and nurtured two SAAS products from ideation to fruition.");
     this.echo("|    •Responsible for end-to-end delivery ownership from problem statement analysis to ensuring the success of the delivered solution ");
     this.echo("|    •Took care of all Ops around tech including AWS infrastructure, performance, and security to ensure smooth functioning at all times ");
     this.echo("|    •Involved in client-level interactions for technical queries, security clearance and feedback collection");
     this.echo("|");
    
-    this.echo("|  " + commandText('Full Stack Developer') + "            at " + commandText("EatAds") + "\n|  Jan 2015 - Jun 2015");
+    this.echo("|  " + commandText('Full Stack Developer') + "                     at " + commandText("EatAds") + "\n|  Jan 2015 - Jun 2015");
     this.echo("|    • Built a CRM with zoho like capabilities and interface like trello.  ");
     this.echo("|    • I am responsible for the whole product from backend to frontend . ");
    
@@ -160,7 +160,7 @@ var App = {
     this.echo("|                I'm passionate about making people's lives better through software.\n|                Whether it's a small piece of functionality implemented in a way that is\n|                seamless to the user, or it's a largescale effort to improve the\n|                performance and usability of software, I'm there." );
   
     this.echo("|");
-    this.echo("|  Employment:   I am currently building " + commandText("XPrep") + " in the " + commandText("New Delhi") + " area. \n|                Get in touch if you'd like to discuss a proposal!");
+    this.echo("|  Employment:   I am currently building " + commandText("Localtrip") + " in the " + commandText("New Delhi") + " area. \n|                Get in touch if you'd like to discuss a proposal!");
     this.echo();
   },
   
