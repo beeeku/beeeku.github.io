@@ -125,15 +125,20 @@ var App = {
   },
   work: function(){
     this.echo();
-    this.echo("|  " + commandText('CTO') + "                             at " + commandText("Classplus") + "\n|  Aug 2015 - Present");
-    this.echo("|    In Classplus my responsibilities are —");
+    this.echo("|  " + commandText('VP Engineering') + "                  at " + commandText("Localtrip") + "\n|  May 2018 - Apr 2019");
+    this.echo("|    In Localtrip my responsibilities are —");
     this.echo("|    • Being the first programmer of the company to build the platform from scratch .");
     this.echo("|    • Designing Scalable Architecture and Managing Servers.");
-    this.echo("|    • Hiring and Leading Engineering Team of 8 members.");
     this.echo("|    • Letting Innovation and Research drive the product development.");
     this.echo("|");
+    this.echo("|  " + commandText('Cofounder & CTO') + "                 at " + commandText("Classplus") + "\n|  Aug 2015 - Apr 2018");
+    this.echo("|    •Founding techie, built and nurtured two SAAS products from ideation to fruition.");
+    this.echo("|    •Responsible for end-to-end delivery ownership from problem statement analysis to ensuring the success of the delivered solution ");
+    this.echo("|    •Took care of all Ops around tech including AWS infrastructure, performance, and security to ensure smooth functioning at all times ");
+    this.echo("|    •Involved in client-level interactions for technical queries, security clearance and feedback collection");
+    this.echo("|");
    
-    this.echo("|  " + commandText('Full Stack Developer') + "                                       at " + commandText("EatAds") + "\n|  Jan 2015 - Jun 2015");
+    this.echo("|  " + commandText('Full Stack Developer') + "            at " + commandText("EatAds") + "\n|  Jan 2015 - Jun 2015");
     this.echo("|    • Built a CRM with zoho like capabilities and interface like trello.  ");
     this.echo("|    • I am responsible for the whole product from backend to frontend . ");
    
